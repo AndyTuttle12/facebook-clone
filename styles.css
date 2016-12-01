@@ -57,12 +57,31 @@ img{
 }
 
 #profile-select:hover{
-	background-color: #204680;
+	background-color: #29487d;
 }
 
 #home-link a{
 	color: #fff;
 	text-decoration: none;
+}
+
+#home-link{
+	margin-top: -6px;
+}
+
+#home-select{
+	height: 29px;
+	width: 45px;
+	border-radius: 2px;
+	position: relative;
+	margin: 6px 0 0 -10px;
+	margin-right: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#home-select:hover{
+	background-color: #29487d;
 }
 
 #fb-logo{
@@ -125,6 +144,11 @@ img{
 	background-size: 26px 905px;
 	margin-left: 5px;
 	margin-top: 8px;
+	opacity: .6;
+}
+
+.social-icon:hover{
+	opacity: 1;
 }
 /* specifically for the friends div */
 .friends{
